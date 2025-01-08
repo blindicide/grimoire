@@ -17,9 +17,6 @@ else
     echo "Finished pulling."
 fi
 
-=======
-git pull
->>>>>>> ca096290edadcce9f576424b235283d5dfc10f6a
 # Add all files recursively
 if ! git add . >> /dev/null 2>&1; then
     handle_error "Error when adding files" "$(git add . 2>&1)"
@@ -42,4 +39,3 @@ else
 fi
 
 echo "Finished."
-
