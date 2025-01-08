@@ -3,6 +3,7 @@
 # Get the current date and time
 COMMIT_MESSAGE="Scripted commit ($(date '+%Y-%m-%d %H:%M:%S'))"
 
+git pull
 # Add all files recursively
 git add .
 
