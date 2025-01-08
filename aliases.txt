@@ -1,0 +1,6 @@
+alias rm="rm -rv"
+alias ls="ls -ACF"
+alias mv="mv -v"
+alias mkdir="mkdir -pv"
+alias wget="wget -c"
+alias ll="ls -lhA"
